@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pendu</title>
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!--<link rel="icon" type="image/png" href="./img/the_logo.png"/>-->
+	<script type="text/javascript" src="scr/db_word.js"></script>
+	<script type="text/javascript" src="scr/affichage.js"></script>
+	<script type="text/javascript" src="scr/game_pendu.js"></script>
+</head>
+
+<nav id="other_button">
+	<input type="button"  class="cb b_left b-1" value="Nouvelle partie" onclick="location.reload()">
+	<input type="button" class="cb b_left b-2" value="Changer de jeu " onclick="select_game()">
+</nav>
+<body>
+
+	<div class="cadre ombre  pos_cellule">
+		<h2> le jeu du pendu </h2>
+
+	</div>
+
+	<div id="div_image" class="pos_img">
+		<img id="image"src="image/pendu_00.gif" width="300" height="230">
+	</div>
+
+
+	<div id="div_letter_find">
+		<canvas id="canvas_word" class=" cadre_can" width="600" height="110" style="background-color: orange;" > </canvas>
+		<script type="text/javascript">can_word()</script>
+	</div>
+
+
+	<div id="div_button_letter">
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="0" value="A" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="1" value="B">
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="2" value="C" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="3" value="D" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="4" value="E" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="5" value="F" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="6" value="G">
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="7" value="H" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="8" value="I" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="9" value="J" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="10" value="K" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="11" value="L">
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="12" value="M" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="13" value="N" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="14" value="O" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="15" value="P" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="16" value="Q">
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="17" value="R" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="18" value="S" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="19" value="T" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="20" value="U" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="21" value="V">
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="22" value="W" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="23" value="X" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="24" value="Y" >
+		<input type="button"  onclick="partie.test_lettre(this)" class="bl" id="25" value="Z" >
+		<script type="text/javascript">pos_button()</script>
+
+	</div>
+
+	<div >
+
+	</div> 
+
+
+</body>
+
+</html>			

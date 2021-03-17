@@ -1,0 +1,94 @@
+html {
+    background: #83ffe7;
+    box-sizing: border-box;
+    color: #002b50;
+    font: 400 16px/24px Proxima Nova,sans-serif;
+    transition: background-color 1s ease-out;
+}
+
+body, canvas, div, html, iframe {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top: 16px;
+
+}
+input{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0,0%,100%,.5)!important;}
+}
+
+
+
+.ombre {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    box-shadow: 8px 8px 25px 10px rgba(0,0,0,.24);
+   
+}
+
+.cadre {
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0,0%,100%,.3)!important;
+    padding: 10px 26px!important;
+}
+
+
+.pos_cellule{
+    position: absolute;
+    z-index: 1;
+    left:30%;
+    width:500px;
+    height:100px;
+    }
+
+.cadre_img {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0,0%,100%,.5)!important;}
+
+.c-1{
+    position:absolute;
+    z-index: 1;
+    top:250px;
+    left:30%;
+    width:160px;
+    height:160px;}
+.c-2{
+    position:absolute;
+    z-index: 1;
+    top:250px;
+    left:60%;
+    width:160px;
+    height:160px;}
+
+.c-3{
+    position:absolute;
+    z-index: 1;
+    top:500px;
+    left:30%;
+    width:160px;
+    height:160px;}
+
+/*
+other game 
+
+.c-3{
+    position:absolute;
+    z-index: 1;
+    top:550px;
+    left:30%;
+    width:160px;
+    height:160px;}
+
+/*
+/*

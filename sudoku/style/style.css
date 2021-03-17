@@ -1,0 +1,96 @@
+html {
+    background: #83ffe7;
+    box-sizing: border-box;
+    color: #002b50;
+    width: 100%;
+    font: 400 16px/24px Proxima Nova,sans-serif;
+    transition: background-color 1s ease-out;
+}
+
+body, div, html {
+    padding: 0;
+    
+}
+
+
+body {
+    position: relative;
+    margin-top: 8px;
+    margin:0 auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+.ombre {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    box-shadow: 8px 8px 25px 10px rgba(0,0,0,.24);
+   
+}
+
+.cadre {
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0,0%,100%,.3)!important;
+    /*padding: 10px 26px!important;*/
+}
+
+.cadre_can{
+    position: absolute;
+    left:26%;
+    top:400px;
+    border-radius: 50px;
+    background: orange;
+
+}
+.pos_cellule{
+    position: absolute;
+    z-index: 1;
+    top:1em;
+    left:33%;
+    width:400px;
+    height:80px;
+    }
+
+.pos_img{
+    position: relative;
+    left:37%;
+    top:130px;
+}
+
+.cb {
+    display: flex;
+    border-radius: 20px;
+    background: hsla(0,0%,100%,.5)!important;}
+
+
+.b-1{
+    position: absolute;
+    font-size: 17px;
+    width:10%;
+    height:15%;
+    top:250px;
+    margin-left: 3%;
+}
+
+
+.b-2{
+    position: absolute;
+    font-size: 17px;
+    width:10%;
+    height:15%;
+    top:200px;
+    margin-left: 3%;
+}
+
+.b-3{
+    position: absolute;
+    font-size: 17px;
+    width:10%;
+    height:15%;
+    left:43%;
+    top:375px;
+}
+
