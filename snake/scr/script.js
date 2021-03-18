@@ -71,9 +71,6 @@ function draw(){
             var reverse_liste_pos=my_snake.liste_pos.reverse();
             fill(0,0,255);
             for (var d=2;d<my_snake.taille+2;d++){                
-                // console.log(my_snake.liste_pos)
-                // console.log(reverse_liste_pos[d+1])
-                // rect(reverse_liste_pos[d+1][0]*10,reverse_liste_pos[d+1][1]*10,10,10);
                 rect(my_snake.liste_pos[my_snake.liste_pos.length-d][0]*10,my_snake.liste_pos[my_snake.liste_pos.length-d][1]*10,10,10);
                 if (my_snake.pos_x ==reverse_liste_pos[d+2][0] && my_snake.pos_y ==reverse_liste_pos[d+2][1]){
                     my_snake.non_game_over=false;
